@@ -1,0 +1,8 @@
+name: app-webfront
+image: nginx:latest
+ports:
+  - external: 8080
+    internal: 80
+  - external: 8443
+    internal: 443
+  
